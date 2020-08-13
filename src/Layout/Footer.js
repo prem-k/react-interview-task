@@ -8,7 +8,7 @@ function Footer() {
                 <div className="col-lg-4 mb-5 mb-lg-0 mt-10">
                     <br></br> 
                     <br></br> 
-                    <p className="lead mb-0" style={{'text-align':'center'}}>
+                    <p className="lead mb-0" style={{'textAlign':'center'}}>
                        Footer Section
                     </p>
                     <br></br> 

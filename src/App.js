@@ -5,7 +5,6 @@ import {Router, Route, browserHistory} from 'react-router';
 import './App.css';
 import Menu from "./Layout/Menu";
 import Header from "./Layout/Header";
-import Layout from "./Layout/Layout";
 import Footer from "./Layout/Footer";
 import Home from "./Components/Home";
 import Product from "./Components/Products";
@@ -19,7 +18,7 @@ function App() {
         <Route path={"/"} component={Home}>
           <Route path={"home"} component={Home}></Route>
         </Route>
-        <Route path={"/products"} component={Product}></Route>
+        <Route path={"/products/:id"} component={Product}></Route>
       </Router>
       <Footer></Footer>
     </div>
